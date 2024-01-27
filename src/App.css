@@ -1,11 +1,25 @@
 .card {
+font-family:'Gil Sans';
+font-size: 10px;
 border: 1px solid black;
 border-radius: 10px;
+border-color: aqua;
 padding: 20px;
-box-shadow: 4px 4px  black;
+box-shadow: 10px rgb(62, 187, 206);
 text-align: center;
+transition: 0.5s ease-in-out;
+background-color: black
 }
 
-.card > h2 {
-font-size: 50px ;
+.style {
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 10px;
+    border-radius: 7px;
+    border-color: aqua;
+
 }
+
+
